@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/appColor">
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/logovital"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="\u00A9 Powered By MATZ Solutions"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
+
